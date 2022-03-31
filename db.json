@@ -1,0 +1,153 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Thor",
+        "image": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_.jpg",
+        "genre": "Action, Adenture, comedy",
+        "director": "Taika Waititi",
+        "stars": "Chris Hemsworth, Tom Hiddleston, Cate Blanchett, Mark Ruffalo",
+        "plot": "Thor is imprisoned on the planet Sakaar, and must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+        "currency": "THB",
+        "rating": 8.4,
+        "duration": "02:45:34",
+        "releaseDate": "Nov 15, 2020",
+        "prices": {
+          "normal": 200,
+          "superior": 300,
+          "sofa": 600
+        }
+      },
+      {
+        "id": 2,
+        "title": "Wonder woman",
+        "genre": "Action, Adenture, Fantasy",
+        "director": "Patty Jenkins",
+        "stars": "Gal Gadot, Chris Pine, Robin Wright, Lucy Davis",
+        "plot": "When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTYzODQzYjQtNTczNC00MzZhLTg1ZWYtZDUxYmQ3ZTY4NzA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+        "currency": "THB",
+        "rating": 7.8,
+        "duration": "02:45:34",
+        "releaseDate": "Nov 15, 2020",
+        "prices": {
+          "normal": 200,
+          "superior": 300,
+          "sofa": 600
+        }
+      },
+      {
+        "id": 3,
+        "title": "Logan",
+        "genre": "Action, Drama, Sci-Fi",
+        "director": "James Mangold ",
+        "stars": "Hugh Jackman, Patrick Stewart, Dafne Keen, Boyd Holbrook",
+        "plot": "In the near future, a weary Logan cares for an ailing Professor X, somewhere on the Mexican border. However, Logan's attempts to hide from the world, and his legacy, are upended when a young mutant arrives, pursued by dark forces.",
+        "image": "https://m.media-amazon.com/images/M/MV5BYzc5MTU4N2EtYTkyMi00NjdhLTg3NWEtMTY4OTEyMzJhZTAzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_FMjpg_UX1000_.jpg",
+        "currency": "THB",
+        "rating": 8.1,
+        "duration": "02:45:34",
+        "releaseDate": "Nov 15, 2020",
+        "prices": {
+          "normal": 200,
+          "superior": 300,
+          "sofa": 600
+        }
+      },
+      {
+        "id": 4,
+        "title": "Despicable me 3",
+        "genre": "Action, Drama, Sci-Fi",
+        "director": "James Mangold ",
+        "stars": "Hugh Jackman, Patrick Stewart, Dafne Keen, Boyd Holbrook",
+        "plot": "Gru meets his long-lost charming, cheerful, and more successful twin brother Dru who wants to team up with him for one last criminal heist.",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjUyNzQ2MTg3Ml5BMl5BanBnXkFtZTgwNzE4NDM3MTI@._V1_.jpg",
+        "currency": "THB",
+        "rating": 6.2,
+        "duration": "02:45:34",
+        "releaseDate": "Nov 15, 2020",
+        "prices": {
+          "normal": 200,
+          "superior": 300,
+          "sofa": 600
+        }
+      },
+      {
+        "id": 5,
+        "title": "Star war",
+        "genre": "Action, Drama, Sci-Fi",
+        "director": "James Mangold ",
+        "stars": "Hugh Jackman, Patrick Stewart, Dafne Keen, Boyd Holbrook",
+        "plot": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+        "currency": "THB",
+        "rating": 9.4,
+        "duration": "02:45:34",
+        "releaseDate": "Nov 15, 2020",
+        "prices": {
+          "normal": 200,
+          "superior": 300,
+          "sofa": 600
+        }
+      },
+      {
+        "id": 6,
+        "title": "Pitch Perfect 3",
+        "genre": "Animation, Action, Adventure",
+        "director": "Trish Sie",
+        "stars": "Anna Kendrick, Rebel Wilson, Brittany Snow, Anna Camp",
+        "plot": "Following their win at the world championship, the now separated Bellas reunite for one last singing competition at an overseas USO tour, but face a group who uses both instruments and voices.",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTU5NDI1MjkwMF5BMl5BanBnXkFtZTgwNjIxNTY2MzI@._V1_FMjpg_UX1000_.jpg",
+        "currency": "THB",
+        "rating": 5.2,
+        "duration": "02:45:34",
+        "releaseDate": "Nov 15, 2020",
+        "prices": {
+          "normal": 200,
+          "superior": 300,
+          "sofa": 600
+        }
+      },
+      {
+        "id": 7,
+        "title": "Opération casse-noisette 2",
+        "genre": "Animation, Action, Adventure",
+        "director": "Cal Brunker",
+        "stars": "Will Arnett, Maya Rudolph, Bobby Cannavale, Bobby Moynihan",
+        "plot": "Following the events of the first film, Surly and his friends must stop Oakton City's mayor from destroying their home to make way for a dysfunctional amusement park.",
+        "image": "https://m.media-amazon.com/images/M/MV5BNDI2NzA2MGUtZWJjZi00MTlhLTg0ZjgtN2U0MTRhM2UwNjg4XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+        "currency": "THB",
+        "rating": 4.2,
+        "duration": "02:45:34",
+        "releaseDate": "Nov 15, 2020",
+        "prices": {
+          "normal": 200,
+          "superior": 300,
+          "sofa": 600
+        }
+      }
+    ],
+    "transactions": [
+      {
+        "movieId": 4,
+        "price": 200,
+        "currency": "THB",
+        "userId": "he6fe54u4s56o71d36z51no",
+        "id": 1
+      },
+      {
+        "movieId": 2,
+        "price": 300,
+        "currency": "THB",
+        "userId": "he6fe54u4s56o71d36z51no",
+        "id": 2
+      },
+      {
+        "movieId": 5,
+        "price": 300,
+        "currency": "THB",
+        "userId": "he6fe54u4s56o71d36z51no",
+        "id": 3
+      }
+    ]
+  }

@@ -1,20 +1,36 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import store from "./redux/store";
+import { Provider } from "react-redux";
+import LatestMovies from "./components/LatestMovies";
+import LatestMovieDetails from "./components/LatestMovieDetails";
+import TicketBookingPage from "./components/TicketBookingPage";
+import { StatusBar } from "expo-status-bar";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import NavBarWithFilter from "./components/NavBarWithFilter";
 
-export default function App() {
+const Stack = createNativeStackNavigator();
+
+export default App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <StatusBar style="auto" backgroundColor="#ffffff" />
+      <NavigationContainer>
+        <Stack.Navigator initialRouteName="Home">
+          <Stack.Screen
+            name="Home"
+            component={LatestMovies}
+            options={{
+              headerTitle: (props) => <NavBarWithFilter {...props} />,
+            }}
+          />
+          <Stack.Screen
+            name="MovieDetails"
+            component={LatestMovieDetails}
+            options={({ route }) => ({ title: route.params.movieName })}
+          />
+          <Stack.Screen name="Book Tickets" component={TicketBookingPage} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </Provider>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+};
