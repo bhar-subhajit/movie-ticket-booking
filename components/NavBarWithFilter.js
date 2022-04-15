@@ -14,7 +14,7 @@ const NavBarWithFilter = () => {
     <View style={styles.navbar}>
       <Image
         style={styles.logo}
-        source={require("../assets/bookmyshowLogo.png")}
+        source={require("../assets/paytm-movies-logo.jpg")}
       />
       <TextInput
         maxLength={20}
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     borderWidth: 1,
     paddingHorizontal: 10,
-    marginRight: 20,
+    marginHorizontal: 18,
     color: "#841584",
     borderRadius: 15,
     borderColor: "#841584",
@@ -47,13 +47,15 @@ const styles = StyleSheet.create({
   logo: {
     flex: 0,
     height: 50,
-    width: "50%",
-    resizeMode: "stretch",
+    width: "20%",
+    resizeMode: "center",
   },
   navbar: {
     flex: 1,
     flexDirection: "row",
-    justifyContent: "space-between",
+    width: windowWidth,
+    justifyContent: "flex-start",
     alignItems: "center",
+    backgroundColor: "white",
   },
 });

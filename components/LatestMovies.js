@@ -46,7 +46,7 @@ const LatestMovies = ({ navigation }) => {
                 <View style={styles.buttonWrapper}>
                   <Button
                     title="Details"
-                    color="#520e52"
+                    color="#841584"
                     onPress={() => viewMovieDetails(item)}
                   />
                 </View>
@@ -70,12 +70,12 @@ const styles = StyleSheet.create({
   buttonWrapper: {
     position: "absolute",
     bottom: 0,
-    width: "100%",
-    margin: 5,
+    right: 0,
+    width: "80%",
   },
   container: {
     flex: 1,
-    backgroundColor: "#ab1aab",
+    backgroundColor: "#dbb2d2",
     height: "100%",
     width: "100%",
     alignItems: "center",
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     width: 150,
   },
   plot: {
-    color: "white",
+    // color: "white",
     paddingHorizontal: 10,
   },
   scrollView: {
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   title: {
-    color: "white",
+    // color: "white",
     padding: 10,
     fontWeight: "bold",
     fontStyle: "italic",
