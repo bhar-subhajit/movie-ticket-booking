@@ -7,9 +7,15 @@ import {
 
 export function* fetchAllMovies() {
   const { data } = yield axios.get(
-    "http://5dff-150-129-132-99.ngrok.io/movies"
+    "https://todo-app-node-express.onrender.com/movies"
+    // {
+    //   headers: {
+    //     Accept: "application/json",
+    //     "content-type": "application/json",
+    //   },
+    // }
   ); //configured for Android Emulators
-  yield put({ type: ALL_MOVIES_FETCH_SUCCESS, movies: data });
+  yield put({ type: ALL_MOVIES_FETCH_SUCCESS, movies: data.movies });
 }
 
 export function* watchFetchAllMovies() {

@@ -28,7 +28,7 @@ const TicketBookingPage = ({ navigation }) => {
         <body style="text-align: center; border: 1px dotted black">
           <img
             src="https://i2.wp.com/www.ticketonlinebooking.com/wp-content/uploads/2018/11/Paytm-Movie-Offers-Buy-1-Get-1-Tickets-Free-Dealsbees.jpg?fit=500%2C302&ssl=1&resize=1280%2C720"
-            style="width: 100%; height: 48%" />
+            style="width: 100%; height: 35%" />
           <div style="width: 100vw; max-height: 35vh; display: flex;">
             <img
             src=${movie.image}
@@ -88,7 +88,7 @@ const TicketBookingPage = ({ navigation }) => {
             <Picker
               selectedValue={noOfTicket}
               onValueChange={(itemValue, itemIndex) => setNoOfTicket(itemValue)}
-              style={{ width: 80 }}
+              style={{ width: 90 }}
             >
               <Picker.Item label="1" value="1" />
               <Picker.Item label="2" value="2" />
@@ -106,7 +106,7 @@ const TicketBookingPage = ({ navigation }) => {
             <Picker
               selectedValue={showTime}
               onValueChange={(itemValue, itemIndex) => setshowTime(itemValue)}
-              style={{ width: 160 }}
+              style={{ width: 180 }}
             >
               <Picker.Item label="12 PM - 3 PM" value="12 PM - 3 PM" />
               <Picker.Item label="4 PM - 7 PM" value="4 PM - 7 PM" />
